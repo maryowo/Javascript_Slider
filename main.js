@@ -49,7 +49,8 @@ function resetTimer(){
 
 var showdots = box.getAttribute("data-marys-showdots");
 if (showdots == "false") {
-    var dots = document.getElementById("slider-dots")
+    var dots = document.getElementById("slider-dots");
+    dots.style{"display"} = "none";
 }
 
 
